@@ -18,5 +18,8 @@ return require('packer').startup(function(use)
 		  vim.cmd('colorscheme rose-pine')
 	  end
   })
+  -- Treesitter for lsp...?
+  use({"nvim-treesitter/nvim-treesitter"})
+
 end)
 
